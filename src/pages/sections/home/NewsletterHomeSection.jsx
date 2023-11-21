@@ -6,7 +6,7 @@ const NewsletterHomeSection = () => {
     return (
         <div className='container mx-auto flex my-28 justify-center items-center gap-x-24 px-4 md:px-0'>
             <div className='md:flex hidden'>
-                <img src="/images/olga-shashkina-Zk453U_xIuA-unsplash.jpg" alt="" className='h-[400px] w-full' />
+                <img src="/images/nicholas-kusuma-zsMhfiy_eek-unsplash.jpg" alt="" className='h-[400px] w-full' />
             </div>
             <div className=' border border-primary px-16 py-24'>
                 <div className='text-center'>
