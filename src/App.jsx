@@ -20,6 +20,7 @@ function App() {
           <Route path="/nous-joindre" element={<NousJoindre />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
+        ICI je vbeux faire un test
         <Footer />
       </Router>
     </>
