@@ -1,6 +1,7 @@
 import './assets/css/App.css';
 import Home from './pages/Home';
 import NousJoindre from './pages/NousJoindre';
+import APropos from './pages/APropos';
 import NoPage from './pages/NoPage';
 import {
   BrowserRouter as Router,
@@ -17,6 +18,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/a-propos" element={<APropos />} />
           <Route path="/nous-joindre" element={<NousJoindre />} />
           <Route path="*" element={<NoPage />} />
         </Routes>

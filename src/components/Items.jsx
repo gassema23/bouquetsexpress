@@ -4,8 +4,6 @@ import { HiOutlineHeart } from "react-icons/hi2";
 import Popover from './Popover';
 
 const Items = ({ price, title, image='https://placehold.co/600x400', sale = false }) => {
-  console.log()
-
   return (
     <div className='flex flex-col w-full group'>
       <div className='relative h-[350px] overflow-hidden'>

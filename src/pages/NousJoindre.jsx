@@ -27,7 +27,7 @@ const NousJoindre = () => {
                             fillMode="both">
                             <h1 className="text-7xl text-gray-800 font-bold uppercase">Nous joindre</h1>
                         </MovingComponent>
-                        <Breadcrumb />
+                        <Breadcrumb items={['Nous joindre']} />
                     </div>
                 </div>
             </Hero>
