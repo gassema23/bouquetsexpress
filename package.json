@@ -13,12 +13,14 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.14.18",
+    "load-json-file": "^7.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
     "react-moving-text": "^0.0.7",
     "react-router-dom": "^6.19.0",
-    "react-transition-group": "^4.4.5"
+    "react-transition-group": "^4.4.5",
+    "write-json-file": "^5.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",

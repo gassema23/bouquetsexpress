@@ -2,9 +2,7 @@ import React, { useState, useRef } from 'react'
 import { HiOutlineXMark } from "react-icons/hi2";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { Transition } from 'react-transition-group';
-import ModalBackdrop from './ModalBackdrop'
 import Sidebar from './Sidebar'
-import Button from './Button';
 import ItemsPanier from './ItemsPanier';
 
 const Panier = () => {
@@ -19,9 +17,9 @@ const Panier = () => {
             <button onClick={onOpenModalClick}
                 className="relative lg:inline-flex lg:w-auto w-full px-3 py-2 items-center justify-center transition-colors duration-500 hover:text-primary">
                 <div className='absolute right-2 bottom-1'>
-                    <span class="relative flex h-2 w-2">
-                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-error opacity-75"></span>
-                        <span class="relative inline-flex rounded-full h-2 w-2 bg-error"></span>
+                    <span className="relative flex h-2 w-2">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-error opacity-75"></span>
+                        <span className="relative inline-flex rounded-full h-2 w-2 bg-error"></span>
                     </span>
                 </div>
                 <HiOutlineShoppingBag size={25} />
@@ -29,7 +27,6 @@ const Panier = () => {
             <Transition in={isOpen} timeout={duration}>
                 {state => (
                     <>
-                        <ModalBackdrop duration={0} state={state}></ModalBackdrop>
                         <Sidebar duration={duration} state={state}>
                             {isOpen && (
                                 <div className='flex flex-col justify-between h-full'>

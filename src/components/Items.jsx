@@ -40,7 +40,7 @@ const Items = ({ price, title, image='https://placehold.co/600x400', sale = fals
         {
           (sale) ? (
             <span className='flex space-x-4'>
-              <span> ${price * sale / 100} </span>
+              <span> ${(price-(price * sale / 100)).toFixed(2)} </span>
               <span className='text-gray-500 line-through'>${price}</span>
             </span>
           ) : (

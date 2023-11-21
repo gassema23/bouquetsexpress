@@ -1,5 +1,4 @@
 import React from 'react'
-import { HiMiniPaperAirplane } from "react-icons/hi2";
 import Input from './Input';
 
 const InputWithButton = ({ children, inputName, inputPlaceholder, inputClass, inputType = "text", inputLabel = false }) => {
