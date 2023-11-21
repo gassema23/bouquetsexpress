@@ -17,7 +17,7 @@ const FooterMenu = () =>{
             <Link to="/" className='hover:text-primary transition duration-300'>À propos</Link>
         </li>
         <li>
-            <Link to="/" className='hover:text-primary transition duration-300'>Nous joindre</Link>
+            <Link to="/nous-joindre" className='hover:text-primary transition duration-300'>Nous joindre</Link>
         </li>
         <li>
             <Link to="/" className='hover:text-primary transition duration-300'>Termes et conditions</Link>
