@@ -13,7 +13,7 @@ const Navigation = () => {
                         <NavLink className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-800 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" to="/">Accueil</NavLink>
                     </li>
                     <li className="inline-block group">
-                        <NavLink className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-800 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" to="/services">Services</NavLink>
+                        <NavLink className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-800 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" to="#">Services</NavLink>
                         {
                             <ul className="py-1 invisible absolute z-50 flex flex-col bg-white text-gray-800 shadow-xl group-hover:visible transition duration-500 border border-gray-200">
                                 <li>
