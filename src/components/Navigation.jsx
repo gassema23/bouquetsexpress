@@ -44,10 +44,10 @@ const Navigation = () => {
                         */}
                     </li>
                     <li className="inline-block">
-                        <NavLink className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-800 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" to="/boutique">Boutique</NavLink>
+                        <NavLink className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-800 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" to="/a-propos">À propos</NavLink>
                     </li>
                     <li className="inline-block">
-                        <NavLink className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-800 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" to="/a-propos">À propos</NavLink>
+                        <NavLink className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-800 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" to="/boutique">Boutique</NavLink>
                     </li>
                     <li className="inline-block">
                         <NavLink className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-800 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" to="/blogue">Blogue</NavLink>
