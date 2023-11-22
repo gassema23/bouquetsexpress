@@ -1,8 +1,17 @@
 import Breadcrumb from '../../components/Breadcrumb';
 import Hero from '../../components/Hero';
 import MovingComponent from 'react-moving-text';
+import datas from '../../datas/products.json';
+import TeamCard from '../../components/TeamCard';
 
 const GrandeCelebration = () => {
+
+    const shuffle = arr => [...arr].sort(() => Math.random() - 0.5);
+    const newList = shuffle(datas);
+    const listItems = newList.slice(0, 4).map((item) =>
+        <TeamCard key={item.productId} nom={item.name} image={item.photo} description={item.category} />
+    );
+
     return (
         <div>
             <Hero banner="/images/bg_page.png" height="h-[350px]">
@@ -33,6 +42,14 @@ const GrandeCelebration = () => {
                     </div>
                 </div>
             </div>
+
+                <div className='flex flex-col w-full text-center pt-10'>
+                    <h5 className='font-bold text-xl pb-2'>Ut et finibus ante</h5>
+                    <h3 className='font-bold text-3xl pb-4'>Nos bouquets</h3>
+                </div>
+                <div className='grid grid-cols-1 md:grid-cols-4 gap-4 pb-10'>
+                    {listItems}
+                </div>
         </div>
     )
 }

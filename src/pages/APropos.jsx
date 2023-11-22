@@ -39,7 +39,7 @@ const APropos = () => {
                     <h5 className='font-bold text-xl pb-2'>Ut et finibus ante</h5>
                     <h3 className='font-bold text-3xl pb-4'>Notre Équipe</h3>
                 </div>
-                <div className='grid grid-cols-2 md:grid-cols-4 gap-4 pb-10'>
+                <div className='grid grid-cols-1 md:grid-cols-4 gap-4 pb-10'>
                     <TeamCard nom="Karen Nelson" image="/images/members/member-10.png" description="Finance" />
                     <TeamCard nom="Helene Engels" image="/images/members/member-4.png" description="Co-Fondateur" />
                     <TeamCard nom="Leslie Libingston" image="/images/members/member-2.png" description="Co-Fondateur" />
