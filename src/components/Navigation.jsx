@@ -14,34 +14,25 @@ const Navigation = () => {
                     </li>
                     <li className="inline-block group">
                         <NavLink className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-800 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" to="/services">Services</NavLink>
-                        {/*
-                        <ul className="invisible absolute z-50 flex flex-col bg-white py-1 px-4 text-gray-800 shadow-xl group-hover:visible transition duration-500">
-                            <li
-                                className="my-2 block py-1 text-gray-800 md:mx-2">
-                                <a href="#">
-                                    Product One
-                                </a>
-                            </li>
-                            <li
-                                className="my-2 block py-1 text-gray-800 md:mx-2">
-                                <a href="#">
-                                    Product Two
-                                </a>
-                            </li>
-                            <li
-                                className="my-2 block py-1 text-gray-800 md:mx-2">
-                                <a href="#">
-                                    Product Three
-                                </a>
-                            </li>
-                            <li
-                                className="my-2 block py-1 text-gray-800 md:mx-2">
-                                <a href="#">
-                                    Product Four
-                                </a>
-                            </li>
-                        </ul>
-                        */}
+                        {
+                            <ul className="py-1 invisible absolute z-50 flex flex-col bg-white text-gray-800 shadow-xl group-hover:visible transition duration-500 border border-gray-200">
+                                <li>
+                                    <Link to="/services/douce-attention" className='block text-dark hover:bg-gray-100 py-3 px-4 transition duration-500'>
+                                        Douce attention
+                                    </Link>
+                                </li>
+                                <li>
+                                    <a href="/services/celebration-intermediaire"className="block text-dark hover:bg-gray-100 py-3 px-4 transition duration-500">
+                                        Célébration intermédiaire
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/services/grande-celebration"className="block text-dark hover:bg-gray-100 py-3 px-4 transition duration-500">
+                                        Grande Célébration
+                                    </a>
+                                </li>
+                            </ul>
+                        }
                     </li>
                     <li className="inline-block">
                         <NavLink className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-800 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" to="/a-propos">À propos</NavLink>
